@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>For You 💗</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Start Screen -->
+  <div id="startScreen" class="screen">
+    <h1 class="glow-text">Tap to Begin 💗</h1>
+  </div>
+
+  <!-- Main Scene -->
+  <div id="scene1" class="screen" style="display:none;">
+
+    <!-- Overlay Text -->
+    <div id="overlayText">Hello… love</div>
+
+    <!-- Slideshow -->
+    <div class="image-frame">
+      <img id="slideImage" src="" alt="memory">
+    </div>
+
+    <!-- Black Screen -->
+    <div id="blackScreen"></div>
+
+    <!-- Penguin Couple -->
+    <img id="penguinCouple" src="penguin-couple.png" alt="penguin couple">
+
+    <!-- Floating Hearts -->
+    <div id="heartsContainer"></div>
+
+    <!-- Valentine Question Board -->
+    <div id="valentineBoard">
+      <h2>Will you be my Valentine? 💖</h2>
+      <div class="buttons">
+        <button id="yesBtn">YES 💕</button>
+        <button id="noBtn">Option 1 😅</button>
+      </div>
+    </div>
+
+    <!-- Final Message (Envelope) -->
+    <div id="finalMessage">
+      <div class="envelope">
+        <div class="flap"></div>
+        <div class="letter">
+          <h1>I love you ❤️</h1>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Background Music -->
+  <audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
